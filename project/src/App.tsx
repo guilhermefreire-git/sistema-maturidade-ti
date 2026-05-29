@@ -7,60 +7,12 @@ import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 import ActionPlan5W2HPage from './pages/ActionPlan5W2HPage';
 import GovernanceRisksPage from './pages/GovernanceRisksPage';
-
-function CompaniesPage() {
-  return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold text-slate-900">Empresas</h1>
-      <p className="mt-2 text-slate-500">Modulo de gestao de empresas.</p>
-    </div>
-  );
-}
-
-function QuestionsPage() {
-  return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold text-slate-900">Questionarios</h1>
-      <p className="mt-2 text-slate-500">Modulo de gestao de perguntas.</p>
-    </div>
-  );
-}
-
-function AssessmentsPage() {
-  return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold text-slate-900">Avaliacoes</h1>
-      <p className="mt-2 text-slate-500">Modulo de avaliacoes.</p>
-    </div>
-  );
-}
-
-function RisksPage() {
-  return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold text-slate-900">Riscos</h1>
-      <p className="mt-2 text-slate-500">Modulo de gestao de riscos.</p>
-    </div>
-  );
-}
-
-function ServicesPage() {
-  return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold text-slate-900">Servicos</h1>
-      <p className="mt-2 text-slate-500">Modulo de gestao de servicos.</p>
-    </div>
-  );
-}
-
-function AuditLogsPage() {
-  return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold text-slate-900">Logs de Auditoria</h1>
-      <p className="mt-2 text-slate-500">Historico de acoes do sistema.</p>
-    </div>
-  );
-}
+import CompaniesPage from './pages/CompaniesPage';
+import QuestionsPage from './pages/QuestionsPage';
+import AssessmentsPage from './pages/AssessmentsPage';
+import RisksPage from './pages/RisksPage';
+import ServicesPage from './pages/ServicesPage';
+import AuditLogsPage from './pages/AuditLogsPage';
 
 export default function App() {
   return (
